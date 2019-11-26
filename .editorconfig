@@ -14,9 +14,12 @@ trim_trailing_whitespace = true
 [*.{md,rst}]
 trim_trailing_whitespace = false
 
-[{*.py,*.bzl,BUILD,WORKSPACE}]
+[*.py]
 indent_size = 4
 max_line_length = 79
+
+[{*.bzl,BUILD,WORKSPACE}]
+indent_size = 4
 
 [*.java]
 indent_size = 4
